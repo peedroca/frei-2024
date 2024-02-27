@@ -1,0 +1,25 @@
+body {
+    background-image: url(/public/assets/bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(2n+1) {
+    background-color: #ccc;
+}
+
+tr:nth-child(2n) {
+    background-color: #dddddd;
+}
