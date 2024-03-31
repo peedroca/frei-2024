@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Markmap</title>
+    
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.16.0/dist/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Controle de Versão com GIT</h1>
+        <h2>Entenda a utilização de GIT no gerenciamento de código fonte</h2>
+    </div>
+
+    <svg id="mindmap"></svg>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.16.0/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.16.0/dist/index.js"></script><script>(r => {
+                    setTimeout(r);
+                })(() => {
+    const {
+        markmap,
+        mm
+    } = window;
+    const {
+        el
+    } = markmap.Toolbar.create(mm);
+    el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+    document.body.append(el);
+    })</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+                const markmap = getMarkmap();
+                window.mm = markmap.Markmap.create(
+                    "svg#mindmap",
+                    (getOptions || markmap.deriveOptions)(jsonOptions),
+                    root2
+                );
+                })(() => window.markmap,null,{"content":"GIT - Controle de versão distribuído","children":[{"content":"História","children":[{"content":"Desenvolvido em 2005 por <strong>Linus Torvalds</strong>, o<br>\nfamoso criador do kernel do sistema operacional Linux","children":[],"payload":{"lines":"3,6"}}],"payload":{"lines":"2,3"}},{"content":"Funcionamento","children":[{"content":"Histórico de versão","children":[{"content":"Em outros sistemas de versão como o SVN o histórico é<br>\ncentralizado em um local","children":[],"payload":{"lines":"8,10"}},{"content":"No GIT cada cópia do código, leva tambem seu histórico de<br>\nalterações","children":[],"payload":{"lines":"10,12"}}],"payload":{"lines":"7,8"}},{"content":"Linha do tempo e ramificações","children":[{"content":"Com GIT é possível desenvolver em diferentes branchs<br>\nao mesmo tempo, e então mescla-las","children":[],"payload":{"lines":"13,16"}}],"payload":{"lines":"12,13"}}],"payload":{"lines":"6,7"}},{"content":"Segurança","children":[{"content":"O conteúdo dos arquivos, relacionamentos entre arquivos e diretórios,<br>\nversões, tags e commits são protegidos com um algoritmo de hash<br>\nde criptografia seguro chamado SHA1","children":[],"payload":{"lines":"17,20"}}],"payload":{"lines":"16,17"}}],"payload":{"lines":"0,1"}},{})</script>
+</body>
+</html>

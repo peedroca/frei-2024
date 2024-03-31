@@ -1,0 +1,123 @@
+body {
+    background-color: #f3f3f3;
+}
+
+/* Seção 1 */
+
+.secao1 {
+    background-color: #404eed;
+    font-family: Discord;
+}
+
+.cabecalho {
+    display: flex;
+    
+    padding: 20px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.cabecalho nav a:hover {
+    text-decoration: underline;
+}
+
+.discord-button {
+    text-decoration: none;
+    color: #292841;
+    background-color: #fff;
+    
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 15px;
+    
+    border-radius: 40px;
+}
+
+.discord-button:hover {
+    color: #404eed;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+  
+
+
+.corpo {
+    text-align: center;
+    color: #fff;
+
+    height: 400px;
+}
+
+.corpo h1 {
+    font-weight: 800;
+    font-size: 3em;
+
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.corpo p {
+    font-weight: 400;
+    font-size: 1.2em;
+
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 40px;
+}
+ 
+.corpo .discord-button {
+    justify-items: center;
+    justify-content: center;
+
+    padding: 18px 30px;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.corpo .dark {
+    color: #fff;
+    background-color: #292841;
+} 
+
+/* Seção 2 */
+
+.secao2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    padding: 120px 0px;
+
+    background-color: #fff;
+}
+
+.secao2 img {
+    width: 580px;
+}
+
+.secao2 .textos {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 380px;
+
+    margin-right: 100px;
+}
+
+.secao2 .textos h1 {
+    font: 700 48px 'Discord';
+    line-height: 105%;
+}
+
+.secao2 .textos p {
+    font: 400 20px 'Discord';
+    line-height: 150%;
+}
