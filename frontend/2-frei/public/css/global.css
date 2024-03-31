@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    background-color: #dda448;
+}
+
+a {
+    text-decoration: none; color: inherit;
+}
+
+.titulo {
+    font-family: Coffee;
+    font-size: 4em;
+
+    /* text-shadow: horizontal-offset vertical-offset blur-radius color; */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3),
+             -2px -2px 3px rgba(255, 255, 255, 0.8);
+
+}
+
+.subtitulo {
+    font-size: 2em;
+    font-family: Mono;
+}
+
+.botao {
+    font-family: Mono;
+    background-color: #cf8e26;
+    padding: 5px 15px 5px 15px;
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.acoes {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.flutuante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

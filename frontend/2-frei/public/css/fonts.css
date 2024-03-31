@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Coffee;
+    src: url(/public/assets/fonts/Coffee.ttf);
+}
+
+@font-face {
+    font-family: Mono;
+    src: url(/public/assets/fonts/MonospaceTypewriter.ttf);
+}

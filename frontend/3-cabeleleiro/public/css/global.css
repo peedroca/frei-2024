@@ -1,0 +1,12 @@
+@font-face {
+    font-family: SingttonVintage;
+    src: url(/public/assets/Singtton\ Vintage.ttf);
+}
+
+body {
+    font-family: SingttonVintage, Arial, sans-serif;
+}
+
+li, dd, table, a {
+    font-family: Arial;
+}
